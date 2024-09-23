@@ -1,3 +1,6 @@
+#ifndef COLORPAIR_H
+#define COLORPAIR_H
+
 #include <iostream>
 #include <sstring>
 
@@ -38,3 +41,4 @@ namespace TelCoColorCoder
                 return colorPairStr;
             }
     };
+#endif 
