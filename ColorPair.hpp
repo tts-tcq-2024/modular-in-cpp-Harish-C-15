@@ -34,11 +34,6 @@ namespace TelCoColorCoder
             MinorColor getMinor() {
                 return minorColor;
             }
-            std::string ToString() {
-                std::string colorPairStr = MajorColorNames[majorColor];
-                colorPairStr += " ";
-                colorPairStr += MinorColorNames[minorColor];
-                return colorPairStr;
-            }
+            std::string ToString();
     };
 #endif 
