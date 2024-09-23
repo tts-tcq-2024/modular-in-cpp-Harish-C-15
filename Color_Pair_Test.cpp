@@ -1,4 +1,4 @@
-#include <Color_Pair.hpp>
+#include <ColorPair.hpp>
 #include <assert.h>
 
 void testNumberToPair(int pairNumber,
