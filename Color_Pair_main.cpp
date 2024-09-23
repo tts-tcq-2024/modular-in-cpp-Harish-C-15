@@ -1,4 +1,4 @@
-#include <Color_Pair.hpp>
+#include <ColorPair.hpp>
 #include <iostream>
 
 ColorPair GetColorFromPairNumber(int pairNumber) 
