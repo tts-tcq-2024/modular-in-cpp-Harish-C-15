@@ -1,6 +1,16 @@
 #include <ColorPair.hpp>
 #include <iostream>
+#include <sstring>
 
+ColorPair obj_colorpair;
+
+std::string obj_colorpair.ToString() 
+{
+                std::string colorPairStr = MajorColorNames[majorColor];
+                colorPairStr += " ";
+                colorPairStr += MinorColorNames[minorColor];
+                return colorPairStr;
+}
 ColorPair GetColorFromPairNumber(int pairNumber) 
 {
         int zeroBasedPairNumber = pairNumber - 1;
