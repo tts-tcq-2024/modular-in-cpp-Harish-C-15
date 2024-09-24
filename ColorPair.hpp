@@ -5,6 +5,8 @@
 #include <iostream>
 #include <string>
 
+namespace TelCoColorCoder
+{
 class ColorPair {
         private:
             MajorColor majorColor;
@@ -41,5 +43,6 @@ ColorPair GetColorFromPairNumber(int pairNumber)
     int GetPairNumberFromColor(MajorColor major, MinorColor minor) 
 {
         return major * numberOfMinorColors + minor + 1;
+}
 }
 #endif
