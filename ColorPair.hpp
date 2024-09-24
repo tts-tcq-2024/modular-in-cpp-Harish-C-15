@@ -2,8 +2,7 @@
 #define COLORPAIR_H
 
 #include "ColorPairData.hpp"
-#include <iostream>
-#include <string>
+
 
 namespace TelCoColorCoder
 {
