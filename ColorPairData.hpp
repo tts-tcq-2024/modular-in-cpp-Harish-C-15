@@ -1,5 +1,5 @@
-#ifndef COLORPAIR_H
-#define COLORPAIR_H
+#ifndef COLORPAIRDATA_H
+#define COLORPAIRDATA_H
 
 #include <iostream>
 #include <string>
