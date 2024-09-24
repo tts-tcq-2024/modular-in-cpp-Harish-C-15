@@ -13,8 +13,8 @@ void printColorCodingManual() {
     std::cout << "-------------------------------------------\n";
 
     // Iterate through all combinations of major and minor colors
-    for (int majorIndex = 0; majorIndex < numberOfMajorColors; ++majorIndex) {
-        for (int minorIndex = 0; minorIndex < numberOfMinorColors; ++minorIndex) {
+    for (int majorIndex = 0; majorIndex < TelCoColorCoder::numberOfMajorColors; ++majorIndex) {
+        for (int minorIndex = 0; minorIndex < TelCoColorCoder::numberOfMinorColors; ++minorIndex) {
             // Create a ColorPair object
             ColorPair colorPair(static_cast<MajorColor>(majorIndex), static_cast<MinorColor>(minorIndex));
 
