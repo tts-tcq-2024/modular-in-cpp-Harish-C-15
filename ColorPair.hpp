@@ -1,8 +1,8 @@
-#include "ColorPairManual.hpp"
+#ifndef COLORPAIR_H
+#define COLORPAIR_H
+
 #include <iostream>
 #include <string>
-
-ColorPair obj_colorpair;
 
 std::string obj_colorpair.ToString() 
 {
@@ -26,8 +26,20 @@ ColorPair GetColorFromPairNumber(int pairNumber)
         return major * numberOfMinorColors + minor + 1;
 }
 
-int main()
-{
-  printColorCodingManual();
-  return 0;
-}
+class ColorPair {
+        private:
+            MajorColor majorColor;
+            MinorColor minorColor;
+        public:
+            ColorPair(MajorColor major, MinorColor minor):
+                majorColor(major), minorColor(minor)
+            {}
+            MajorColor getMajor() {
+                return majorColor;
+            }
+            MinorColor getMinor() {
+                return minorColor;
+            }
+            std::string ToString();
+    };
+#endif
