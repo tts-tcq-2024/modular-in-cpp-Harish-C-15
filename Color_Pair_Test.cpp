@@ -12,8 +12,8 @@ void testNumberToPair(int pairNumber,
 }
 
 void testPairToNumber(
-    MajorColor major,
-    MinorColor minor,
+    MajorColor major_color,
+    MinorColor minor_color,
     int expectedPairNumber)
 {
     int pairNumber = GetPairNumberFromColor(major, minor);
