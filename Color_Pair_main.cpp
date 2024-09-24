@@ -1,4 +1,4 @@
-#include <ColorPairManual.hpp>
+#include "ColorPairManual.hpp"
 #include <iostream>
 #include <sstring>
 
