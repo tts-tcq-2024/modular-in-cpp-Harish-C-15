@@ -1,4 +1,3 @@
-#include "ColorPairData.hpp"
 #include "ColorPair.hpp"
 #include <string>
 #include <iostream>
