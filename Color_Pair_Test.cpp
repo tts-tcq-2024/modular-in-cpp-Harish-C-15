@@ -12,8 +12,8 @@ void testNumberToPair(int pairNumber,
 }
 
 void testPairToNumber(
-    TelCoColorCoder::MajorColor major,
-    TelCoColorCoder::MinorColor minor,
+    MajorColor major,
+    MinorColor minor,
     int expectedPairNumber)
 {
     int pairNumber = GetPairNumberFromColor(major, minor);
