@@ -2,7 +2,7 @@
 #define COLORPAIR_H
 
 #include <iostream>
-#include <sstring>
+#include <string>
 
 namespace TelCoColorCoder 
 {
