@@ -1,4 +1,4 @@
-#include <ColorPair.hpp>
+#include <ColorPairManual.hpp>
 #include <iostream>
 #include <sstring>
 
@@ -26,4 +26,8 @@ ColorPair GetColorFromPairNumber(int pairNumber)
         return major * numberOfMinorColors + minor + 1;
 }
 
-
+int main()
+{
+  printColorCodingManual();
+  return 0;
+}
