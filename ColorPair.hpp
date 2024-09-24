@@ -36,4 +36,5 @@ namespace TelCoColorCoder
             }
             std::string ToString();
     };
+}
 #endif 
