@@ -1,6 +1,4 @@
-#ifndef COLORPAIRMANUAL_H
-#define COLORPAIRMANUAL_H
-
+#include "ColorPairData.hpp"
 #include "ColorPair.hpp"
 #include <string>
 #include <iostream>
@@ -28,4 +26,8 @@ void printColorCodingManual() {
         }
     }
 }
-#endif
+int main()
+{
+    printColorCodingManual();
+    return 0;
+}
