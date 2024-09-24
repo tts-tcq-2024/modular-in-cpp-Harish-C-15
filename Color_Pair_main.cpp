@@ -1,6 +1,6 @@
 #include "ColorPairManual.hpp"
 #include <iostream>
-#include <sstring>
+#include <string>
 
 ColorPair obj_colorpair;
 
