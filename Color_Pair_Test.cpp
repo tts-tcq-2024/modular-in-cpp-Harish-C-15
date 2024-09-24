@@ -16,7 +16,7 @@ void testPairToNumber(
     MinorColor minor_color,
     int expectedPairNumber)
 {
-    int pairNumber = GetPairNumberFromColor(major, minor);
+    int pairNumber = GetPairNumberFromColor(major_color, minor_color);
     std::cout << "Got pair number " << pairNumber << std::endl;
     assert(pairNumber == expectedPairNumber);
 }
