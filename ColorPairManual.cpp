@@ -2,8 +2,6 @@
 #include <vector>
 #include <iomanip>
 
-namespace TelCoColorCoder
-{
 void printColorCodingManual() {
     int pairNumber = 1;  // Start numbering from 1
 
@@ -30,4 +28,4 @@ int main()
     printColorCodingManual();
     return 0;
 }
-}
+
