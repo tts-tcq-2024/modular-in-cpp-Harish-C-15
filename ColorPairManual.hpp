@@ -1,7 +1,7 @@
 #ifndef COLORPAIRMANUAL_H
 #define COLORPAIRMANUAL_H
 
-#include <ColorPair.hpp>
+#include "ColorPair.hpp"
 #include <string>
 #include <iostream>
 #include <vector>
