@@ -1,4 +1,4 @@
-#include "ColorPairData.hpp"
+#include "ColorPair.hpp"
 #include <vector>
 #include <iomanip>
 
