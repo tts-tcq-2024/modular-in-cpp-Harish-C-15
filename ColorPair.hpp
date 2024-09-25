@@ -36,5 +36,7 @@ class ColorPair {
     };
 extern ColorPair GetColorFromPairNumber(int pairNumber);
 extern int GetPairNumberFromColor(MajorColor major, MinorColor minor);
+extern void testNumberToPair(int pairNumber, MajorColor expectedMajor, MinorColor expectedMinor);
+extern void testPairToNumber(MajorColor major_color, MinorColor minor_color, int expectedPairNumber);
 }
 #endif
