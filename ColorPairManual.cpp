@@ -30,13 +30,13 @@ void printColorCodingManual() {
 }
 int main()
 {
-    printColorCodingManual();
+    Color::printColorCodingManual();
     
-    testNumberToPair(4, Color::WHITE, Color::BROWN);
-    testNumberToPair(5, Color::WHITE, Color::SLATE);
+    Color::testNumberToPair(4, Color::WHITE, Color::BROWN);
+    Color::testNumberToPair(5, Color::WHITE, Color::SLATE);
 
-    testPairToNumber(Color::BLACK, Color::ORANGE, 12);
-    testPairToNumber(Color::VIOLET, Color::SLATE, 25);
+    Color::testPairToNumber(Color::BLACK, Color::ORANGE, 12);
+    Color::testPairToNumber(Color::VIOLET, Color::SLATE, 25);
 
     return 0;
 }
