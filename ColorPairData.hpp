@@ -7,14 +7,14 @@
     enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
     enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
-    extern const char* MajorColorNames[] = {
+    const char* MajorColorNames[] = {
         "White", "Red", "Black", "Yellow", "Violet"
     };
-    extern const int numberOfMajorColors =
+    const int numberOfMajorColors =
         sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
-    extern const char* MinorColorNames[] = {
+    const char* MinorColorNames[] = {
         "Blue", "Orange", "Green", "Brown", "Slate"
     };
-    extern const int numberOfMinorColors =
+    const int numberOfMinorColors =
         sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 #endif 
