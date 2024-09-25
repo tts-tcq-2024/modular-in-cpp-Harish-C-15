@@ -18,8 +18,8 @@ void printColorCodingManual() {
 
             // Print the pair number and the color pair
             std::cout << std::setw(5) << pairNumber << std::setw(15)
-                      << MajorColorNames[majorIndex] << std::setw(15)
-                      << MinorColorNames[minorIndex] << "\n";
+                      << Color::MajorColorNames[majorIndex] << std::setw(15)
+                      << Color::MinorColorNames[minorIndex] << "\n";
             pairNumber++;
         }
     }
