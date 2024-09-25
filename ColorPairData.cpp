@@ -20,8 +20,4 @@ ColorPair GetColorFromPairNumber(int pairNumber)
 {
         return major * numberOfMinorColors + minor + 1;
 }
-int main()
-{
-        return 0;
-}
 }
