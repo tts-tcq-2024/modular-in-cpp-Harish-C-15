@@ -26,7 +26,9 @@ void printColorCodingManual() {
         }
     }
 }
-void main()
+
+}
+int main()
 {
     printColorCodingManual();
     
@@ -36,5 +38,5 @@ void main()
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
 
-}
+    return 0
 }
