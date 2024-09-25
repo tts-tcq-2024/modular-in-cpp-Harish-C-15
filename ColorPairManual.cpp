@@ -1,6 +1,7 @@
 #include "ColorPair.hpp"
 #include <vector>
 #include <iomanip>
+#include <string>
 
 void printColorCodingManual() {
     int pairNumber = 1;  // Start numbering from 1
