@@ -1,6 +1,8 @@
 #include "ColorPair.hpp"
 #include <assert.h>
 
+namespace Color
+{
 void testNumberToPair(int pairNumber,
     MajorColor expectedMajor,
     MinorColor expectedMinor)
@@ -29,4 +31,5 @@ int main() {
     testPairToNumber(VIOLET, SLATE, 25);
 
     return 0;
+}
 }
