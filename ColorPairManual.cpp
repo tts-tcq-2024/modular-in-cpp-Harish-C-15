@@ -1,5 +1,4 @@
 #include "ColorPair.hpp"
-#include <vector>
 #include <iomanip>
 #include <string>
 
