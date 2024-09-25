@@ -3,6 +3,8 @@
 #include <iomanip>
 #include <string>
 
+namespace Color
+{
 void printColorCodingManual() {
     int pairNumber = 1;  // Start numbering from 1
 
@@ -18,8 +20,8 @@ void printColorCodingManual() {
 
             // Print the pair number and the color pair
             std::cout << std::setw(5) << pairNumber << std::setw(15)
-                      << Color::MajorColorNames[majorIndex] << std::setw(15)
-                      << Color::MinorColorNames[minorIndex] << "\n";
+                      << MajorColorNames[majorIndex] << std::setw(15)
+                      << MinorColorNames[minorIndex] << "\n";
             pairNumber++;
         }
     }
@@ -29,4 +31,4 @@ int main()
     printColorCodingManual();
     return 0;
 }
-
+}
