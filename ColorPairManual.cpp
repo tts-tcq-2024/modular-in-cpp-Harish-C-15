@@ -32,11 +32,11 @@ int main()
 {
     printColorCodingManual();
     
-    testNumberToPair(4, WHITE, BROWN);
-    testNumberToPair(5, WHITE, SLATE);
+    testNumberToPair(4, Color::WHITE, Color::BROWN);
+    testNumberToPair(5, Color::WHITE, Color::SLATE);
 
-    testPairToNumber(BLACK, ORANGE, 12);
-    testPairToNumber(VIOLET, SLATE, 25);
+    testPairToNumber(Color::BLACK, Color::ORANGE, 12);
+    testPairToNumber(Color::VIOLET, Color::SLATE, 25);
 
-    return 0
+    return 0;
 }
