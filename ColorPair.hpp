@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+namespace Color
+{
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
@@ -34,5 +36,5 @@ class ColorPair {
     };
 extern ColorPair GetColorFromPairNumber(int pairNumber);
 extern int GetPairNumberFromColor(MajorColor major, MinorColor minor);
-
+}
 #endif
